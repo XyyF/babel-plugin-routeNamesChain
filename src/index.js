@@ -9,7 +9,7 @@ export default function (babel) {
                     const {file} = path.hub
                     const {node} = path
                     // 是以属性调用的形式使用 RouteNamesChain.xxx
-                    if (!t.isIdentifier(path.node.object, { name: 'RouteNamesChain' })) return
+                    if (!t.isIdentifier(path.node.object, {name: 'RouteNamesChain'})) return
                     let result = ''
                     const property = node.property
                     // 是否自定义了 RouteNamesChain 变量
