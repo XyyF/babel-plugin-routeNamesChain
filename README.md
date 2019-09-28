@@ -1,4 +1,4 @@
-# babel-plugin-routeNamesChain
+# babel-plugin-route-names-chain
 
 ## Example
 
