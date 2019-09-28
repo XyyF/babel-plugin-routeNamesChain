@@ -4,12 +4,12 @@
 
 Transforms
 ```js
-RouteNamesChain.Checkin.Profile
+const name = RouteNamesChain.Checkin.Profile
 ```
 
 roughly to
 ```js
-'Checkin-Prifile'
+const name = 'Checkin-Prifile'
 ```
 
 For more examples, please see the catalog test
