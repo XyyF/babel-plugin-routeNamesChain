@@ -1,0 +1,31 @@
+{
+  "name": "babel-plugin-routeNamesChain",
+  "version": "1.0.0",
+  "description": "elfin babel plugin",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:XyyF/babel-plugin-routeNamesChain.git"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib || true",
+    "test": "mocha --check-leaks --require @babel/register"
+  },
+  "author": "rengar",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "7.5.5",
+    "@babel/core": "7.5.5",
+    "@babel/polyfill": "7.4.4",
+    "@babel/preset-env": "7.5.5",
+    "@babel/register": "7.5.5",
+    "babel-plugin-add-module-exports": "1.0.2",
+    "chai": "4.2.0",
+    "glob": "7.1.4",
+    "lodash": "4.17.15",
+    "mocha": "6.2.0"
+  },
+  "dependencies": {
+    "@babel/helper-module-imports": "7.0.0"
+  }
+}
