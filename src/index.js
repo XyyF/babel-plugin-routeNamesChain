@@ -17,7 +17,7 @@ export default function (babel) {
                     let preParent = null
                     let parent = path
                     // 要由大写字母开头
-                    while (parent && t.isIdentifier(parent.node.property) && /^[A-Z][a-z]*/.test(parent.node.property.name)) {
+                    while (parent && t.isIdentifier(parent.node.property) && /^[A-Z].*/.test(parent.node.property.name)) {
                         result += `${parent.node.property.name}-`
                         preParent = parent
                         parent = parent.findParent((temp) => temp.isMemberExpression())
