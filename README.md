@@ -1,5 +1,18 @@
 # babel-plugin-route-names-chain
 
+## Instructions
+
+npm i babel-plugin-route-names-chain --save
+
+babel.config.js
+```
+module.exports = {
+    plugins: [
+        'route-names-chain',
+    ],
+}
+```
+
 ## Example
 
 Transforms
